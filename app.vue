@@ -3,7 +3,8 @@
     <div class="card " v-show="isShow">
     <div class="card-title bg-blue-500">
       <p class="title-txt">Admin Bot Chat 3.0</p>
-      <UIcon class="close-icon"  @click="close" name="material-symbols:close-rounded" dynamic />
+      <!-- <UIcon class="close-icon"  @click="close" name="material-symbols:close-rounded" dynamic /> -->
+      <UIcon class="close-icon" @click="close" name="material-symbols:close-thick" dynamic />
     </div>
     <div class="card-chat" :class="{scrollBar: scroll}" ref="cardChat">
       <div v-for="(item, index) in list" :key="index">
