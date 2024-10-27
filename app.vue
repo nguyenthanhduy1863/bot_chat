@@ -2,7 +2,7 @@
   <div class="">
     <div class="card " v-show="isShow">
     <div class="card-title bg-blue-500">
-      <p class="title-txt">Admin Bot</p>
+      <p class="title-txt">Admin Bot Chat</p>
       <UIcon class="close-icon"  @click="close" name="material-symbols:close-rounded" dynamic />
     </div>
     <div class="card-chat" :class="{scrollBar: scroll}" ref="cardChat">
