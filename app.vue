@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <div class="card " v-show="isShow">
-    <div class="card-title bg-blue-500">
+    <div class="card-title bg-green-500">
       <p class="title-txt">Admin Bot Chat</p>
       <UIcon class="close-icon"  @click="close" name="material-symbols:close-rounded" dynamic />
     </div>
@@ -21,7 +21,7 @@
     <div class="footer">
       <div class="card-message">
         <UInput class="message-inp" type="text" @keyup.enter="sendMessage()" v-model="textMess" variant="none" placeholder="Type a message"/>
-        <UButton class="send-btn"  @click="sendMessage()" color="blue">Send</UButton>
+        <UButton class="send-btn"  @click="sendMessage()" color="green">Send</UButton>
       </div>
     </div>
   </div>
