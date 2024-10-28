@@ -2,7 +2,7 @@
   <div class="">
     <div class="card " v-show="isShow">
     <div class="card-title bg-pink-500">
-      <p class="title-txt">Admin Bot Chat 2.0.1</p>
+      <p class="title-txt">Admin Bot Chat 2.0.2</p>
       <UIcon class="close-icon"  @click="close" name="material-symbols:close-rounded" dynamic />
       <!-- <UIcon class="close-icon" @click="close" name="material-symbols:close-thick" dynamic /> -->
     </div>
